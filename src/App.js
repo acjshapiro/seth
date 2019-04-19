@@ -136,6 +136,7 @@ class MobileContainer extends Component {
         <Sidebar
           as={Menu}
           animation='push'
+          cursor='pointer'
           inverted
           onHide={this.handleSidebarHide}
           vertical
