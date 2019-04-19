@@ -97,9 +97,9 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a' active>
                   Home
                 </Menu.Item>
+                <Menu.Item as='a'>About</Menu.Item>
                 <Menu.Item as='a'>Programs</Menu.Item>
                 <Menu.Item as='a'>Services</Menu.Item>
-                <Menu.Item as='a'>About</Menu.Item>
               </Container>
             </Menu>
             <HomepageHeading />
@@ -195,14 +195,14 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              We Help Children and Parents
+              Who am I?
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              We can give your children superpowers to do things that they never thought possible.
-              Let us lobotomize your children into super mutants TODAY!
+              I'm Seth, and I can give your children superpowers to do things that they never thought possible.
+              Let me lobotomize your child into a super mutants TODAY!
             </p>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              We Make Bananas That Can Dance
+              How I can help your family. 
             </Header>
             <p style={{ fontSize: '1.33em' }}>
               Yes that's right, you thought it was the stuff of dreams, but even bananas can be
@@ -241,7 +241,7 @@ const HomepageLayout = () => (
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Container text>
         <Header as='h3' style={{ fontSize: '2em' }}>
-          Something dope about Seth That grabs our attention
+          Programs
         </Header>
         <p style={{ fontSize: '1.33em' }}>
           I don't understand your field well enough to say anything meaningful here, but I assume you can get me some contet to fill it out!  or we can just delete it
@@ -255,7 +255,7 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: '3em 0em', textTransform: 'uppercase' }}
         >
-          <a href='#'>Ongoing studies/ Projects / Other Cool Shit</a>
+          Services
         </Divider>
         <Header as='h3' style={{ fontSize: '2em' }}>
           Did you know that kids should not be used as building materials if they have not been vaccinated?
@@ -270,14 +270,6 @@ const HomepageLayout = () => (
         <Grid divided inverted stackable>
           <Grid.Row>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='About' />
-              <List link inverted>
-                <List.Item as='a'>Contact Us</List.Item>
-                <List.Item as='a'>Religious Ceremonies</List.Item>
-                <List.Item as='a'>Gazebo Plans</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
               <Header inverted as='h4' content='Services' />
               <List link inverted>
                 <List.Item as='a'>Banana Pre-Order</List.Item>
@@ -288,10 +280,16 @@ const HomepageLayout = () => (
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as='h4' inverted>
-                Footer Header
+                Contact Me
               </Header>
               <p>
-                Extra space for a call to action inside the footer that could help re-engage users.
+                69 Taintview dr. Goochville Ca 94111
+              </p>
+              <p>  
+                info@Sethshapiro.com
+              </p>
+              <p>  
+                (415) 696. 6969
               </p>
             </Grid.Column>
           </Grid.Row>
