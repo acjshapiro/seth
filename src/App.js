@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+import React , { Component } from 'react';
 import {
   Button,
   Container,
@@ -14,7 +14,10 @@ import {
   Segment,
   Sidebar,
   Visibility,
-} from 'semantic-ui-react'
+} from 'semantic-ui-react';
+
+
+
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -33,7 +36,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as='h1'
-      content=" Dr. Seth's Education Dungeon "
+      content=" Seth Shapiro | Educational Therapist "
       inverted
       style={{
         fontSize: mobile ? '2em' : '4em',
@@ -44,7 +47,7 @@ const HomepageHeading = ({ mobile }) => (
     />
     <Header
       as='h2'
-      content='Fix Your Awful Kid in one month.'
+      content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       inverted
       style={{
         fontSize: mobile ? '1.5em' : '1.7em',
@@ -94,10 +97,8 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a' active>
-                  Home
-                </Menu.Item>
-                <Menu.Item as='a'>About</Menu.Item>
+                <Menu.Item active>Home</Menu.Item>
+                <Menu.Item >About</Menu.Item>
                 <Menu.Item as='a'>Programs</Menu.Item>
                 <Menu.Item as='a'>Services</Menu.Item>
               </Container>
@@ -199,15 +200,16 @@ const HomepageLayout = () => (
               Who am I?
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              I'm Seth, and I can give your children superpowers to do things that they never thought possible.
-              Let me lobotomize your child into a super mutants TODAY!
+              After working as an Assistant Teacher at Cathedral School for Boys for 7 years, I decided to pursue my passion in working with students who are experiencing learning challenges, or who may have different learning needs than their peers.  
+              I recently received my Educational Therapist certification from Holy Names University, and am working towards my Masters in the same field.  I am researching how mindfulness can be used to mitigate challenges presented by learning disabilities.  
             </p>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              How I can help your family. 
+              How I can help your family? 
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-              taught new skills using the Shapiro Method of Whatever it is called that Seth does.  Education Voodoo maybe?
+              My approach emphasizes empathy, and that each student has their own unique style to do their best learning. Locating and finding the style that best suits each student is a key to finding success, both inside and outside of their academic experience.  I work with students from K-12 and provide services in learning support and academic assessment.
+
+
             </p>
           </Grid.Column>
           
@@ -223,17 +225,17 @@ const HomepageLayout = () => (
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              "Seth Smells Great!"
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
             </Header>
-            <p style={{ fontSize: '1.33em' }}>-<b>Gretta </b>Happy Mother of new Mutant Super Baby</p>
+            <p style={{ fontSize: '1.33em' }}>-<b>Gretta </b>Satisfied So and So</p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              "I fucked up going to a black market Education Voodoo Man, and now my ten year old is not a mutant super baby :("
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
             </Header>
             <p style={{ fontSize: '1.33em' }}>
           
-              -<b>Nan</b> Big Stupid Idiot Man
+              -<b>Nan</b> Satisfied So and So
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -241,16 +243,7 @@ const HomepageLayout = () => (
     </Segment>
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Container text>
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          Programs
-        </Header>
-        <p style={{ fontSize: '1.33em' }}>
-          I don't understand your field well enough to say anything meaningful here, but I assume you can get me some contet to fill it out!  or we can just delete it
-        </p>
-        <Button as='a' size='large'>
-          Read More
-        </Button>
-        <Divider
+      <Divider
           as='h4'
           className='header'
           horizontal
@@ -258,11 +251,10 @@ const HomepageLayout = () => (
         >
           Services
         </Divider>
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          Did you know that kids should not be used as building materials if they have not been vaccinated?
-        </Header>
-        <p style={{ fontSize: '1.33em' }}>
-          They can be flammable and will start to smell awful if it starts to rain.
+        <p textAlign='center' style={{ fontSize: '1.33em' }}>
+          Educational Therapy | 
+          Academic Assessment |
+          Learning Support
         </p>
       </Container>
     </Segment>
@@ -273,10 +265,9 @@ const HomepageLayout = () => (
             <Grid.Column width={3}>
               <Header inverted as='h4' content='Services' />
               <List link inverted>
-                <List.Item as='a'>Banana Pre-Order</List.Item>
-                <List.Item as='a'>DNA FAQ</List.Item>
-                <List.Item as='a'>How To Access</List.Item>
-                <List.Item as='a'>Favorite X-Men</List.Item>
+                <List.Item as='a'>Educational Therapy</List.Item>
+                <List.Item as='a'>Academic Assessment</List.Item>
+                <List.Item as='a'>Learning Support</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
@@ -284,13 +275,13 @@ const HomepageLayout = () => (
                 Contact Me
               </Header>
               <p>
-                69 Taintview dr. Goochville Ca 94111
+                45 Ipsum Dr Lorem, Ca 92222
               </p>
               <p>  
-                info@Sethshapiro.com
+                sethkjshapiro@gmail.com
               </p>
               <p>  
-                (415) 696. 6969
+                (415) 555. 5555
               </p>
             </Grid.Column>
           </Grid.Row>
